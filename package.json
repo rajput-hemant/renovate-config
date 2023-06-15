@@ -1,0 +1,16 @@
+{
+	"name": "@rajput-hemant/renovate-config",
+	"private": true,
+	"description": "Presets for Open Source Libraries",
+	"version": "1.0.0",
+	"scripts": {
+		"test": "renovate-config-validator"
+	},
+	"files": [],
+	"devDependencies": {
+		"renovate": "^35.110.1"
+	},
+	"repository": "git@github.com:rajput-hemant/renovate-config.git",
+	"author": "Hemant Rajput <rajput.hemant2001@gmail.com>",
+	"license": "MIT"
+}
