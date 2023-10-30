@@ -14,16 +14,13 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: 18.x
-
-      - name: Install pnpm
-        run: npm install -g pnpm
+          bun-version: latest
 
       - name: Install dependencies
-        run: pnpm i
+        run: bun i
 
-      - name: Run Renovate test
-        run: pnpm test
+      - name: Run tests
+        run: bun test
