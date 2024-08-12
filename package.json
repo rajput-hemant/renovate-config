@@ -8,7 +8,7 @@
 	},
 	"files": [],
 	"devDependencies": {
-		"renovate": "^38.18.12"
+		"renovate": "^38.25.0"
 	},
 	"repository": "git@github.com:rajput-hemant/renovate-config.git",
 	"author": "Hemant Rajput <rajput.hemant2001@gmail.com>",
